@@ -1,8 +1,11 @@
 package hello.hellospring.repository;
 
 import hello.hellospring.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
+
+// Repository를 알려줌과 동시에 스프링 컨테이너에 등록
 
 public class MemoryMemberRepository implements MemberRepository {
 

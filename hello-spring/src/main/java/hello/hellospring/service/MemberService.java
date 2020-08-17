@@ -3,16 +3,21 @@ package hello.hellospring.service;
 import hello.hellospring.domain.Member;
 import hello.hellospring.repository.MemberRepository;
 import hello.hellospring.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
 // Ctrl + Shift + T 테스트 뼈대 생성
+// @Service -> 스프링 컨테이너에 등록해준다.
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
     // 외부에서 저장소를 넣어주는 격
+
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
