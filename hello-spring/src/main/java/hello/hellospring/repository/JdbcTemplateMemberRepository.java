@@ -40,13 +40,13 @@ public class JdbcTemplateMemberRepository implements MemberRepository {
 
     @Override
     public Optional<Member> findById(Long Id) {
-        List<Member> result = jdbcTemplate.query("select * from member where id = ?", memberRowMapper());
+        List<Member> result = jdbcTemplate.query("select * from member where id = ?", memberRowMapper(), Id);
         return result.stream().findAny();
     }
 
     @Override
     public Optional<Member> findByName(String name) {
-        List<Member> result = jdbcTemplate.query("select * from member where name = ?", memberRowMapper());
+        List<Member> result = jdbcTemplate.query("select * from member where name = ?", memberRowMapper(), name);
         return result.stream().findAny();
     }
 
