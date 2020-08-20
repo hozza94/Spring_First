@@ -27,6 +27,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -116,6 +123,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1597939550966">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597939550966" />
     <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1597244461105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -136,5 +147,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597242660359" />
+    <state x="150" y="229" key="search.everywhere.popup" timestamp="1597938853937">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="150" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597938853937" />
   </component>
 </project>

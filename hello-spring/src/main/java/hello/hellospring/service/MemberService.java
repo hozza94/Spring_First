@@ -6,12 +6,14 @@ import hello.hellospring.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
 // Ctrl + Shift + T 테스트 뼈대 생성
 // @Service -> 스프링 컨테이너에 등록해준다.
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
