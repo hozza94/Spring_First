@@ -20,7 +20,6 @@ public class SpringConfig {
         this.em = em;
     }
 
-    @Autowired
 
     @Bean
     public MemberService memberService() {
