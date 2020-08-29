@@ -3,6 +3,24 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc855cc-3498-4805-8ae0-3411d4672820" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +49,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,7 +66,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.HelloSpringApplication">
+  <component name="RunManager" selected="JUnit.MemberServiceTest.회원가입">
     <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.hellospring.HelloSpringApplication" />
       <module name="hello-spring.main" />
@@ -116,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberServiceTest.회원가입" />
         <item itemvalue="Application.HelloSpringApplication" />
         <item itemvalue="JUnit.MemberServiceTest" />
-        <item itemvalue="JUnit.MemberServiceTest.회원가입" />
         <item itemvalue="JUnit.hello.hellospring in hello-spring.test" />
         <item itemvalue="JUnit.All in hello-spring.test (2)" />
       </list>
@@ -135,27 +154,38 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1597939550966">
+    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1598257537337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1597939550966" />
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom" timestamp="1598248041903">
+    <state x="292" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1598257537337" />
+    <state width="914" height="275" key="GridCell.Tab.0.bottom" timestamp="1598259606140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598248041903" />
-    <state width="1877" height="276" key="GridCell.Tab.0.center" timestamp="1598248041903">
+    <state width="914" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598259606140" />
+    <state width="914" height="275" key="GridCell.Tab.0.center" timestamp="1598259606140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598248041903" />
-    <state width="1877" height="276" key="GridCell.Tab.0.left" timestamp="1598248041903">
+    <state width="914" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598259606140" />
+    <state width="914" height="275" key="GridCell.Tab.0.left" timestamp="1598259606140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598248041903" />
-    <state width="1877" height="276" key="GridCell.Tab.0.right" timestamp="1598248041903">
+    <state width="914" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598259606140" />
+    <state width="914" height="275" key="GridCell.Tab.0.right" timestamp="1598259606140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598248041903" />
+    <state width="914" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598259606140" />
     <state x="0" y="164" key="SettingsEditor" timestamp="1597242660359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,6 +20,15 @@ public class SpringConfig {
         this.em = em;
     }
 
+//    private final MemberRepository memberRepository;
+
+
+//    @Autowired
+//    public SpringConfig(MemberRepository memberRepository) {
+//        this.memberRepository = memberRepository;
+//    }
+
+
 
     @Bean
     public MemberService memberService() {

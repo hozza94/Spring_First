@@ -30,13 +30,11 @@ public class MemberController {
     }
 
     // createMemberForm.html 에서 method가 post 방식으로 넘어오기때문에 post매핑
-    @PostMapping("/members/new")
+    @PostMapping(value = "/members/new")
     public String create(MemberForm form) {
         Member member = new Member();
         member.setName(form.getName());
-
         memberService.join(member);
-
         return "redirect:/";
     }
 
